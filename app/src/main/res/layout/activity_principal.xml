@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#072749"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.joaod.jsonormlite.EnderecoActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/meusEndereco"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editCep"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#fff"
+            android:hint="@string/digite_cep"
+            android:inputType="number"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="#31b0d5"
+            android:onClick="pesquisar"
+            android:text="@string/botao_buscar"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tvEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/endereco"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tvLocalidade"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:hint="@string/campo_cidade"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/tvUf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/campo_estado"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5cb85c"
+        android:onClick="salvar"
+        android:text="@string/botap_salvar"
+        android:textColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5"
+            android:background="#ec971f"
+            android:onClick="voltar"
+            android:text="@string/botao_voltar"
+            android:textColor="@android:color/background_light" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:paddingBottom="10dp"
+        android:textColor="#fff">
+
+    </ListView>
+</LinearLayout>

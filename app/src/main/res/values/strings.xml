@@ -1,0 +1,25 @@
+<resources>
+    <string name="texto">JsonOrmLite</string>
+    <string name="app_name">JsonOrmLite</string>
+    <string name="meusEndereco">Meus Endereços</string>
+    <string name="endereco">Endereço</string>
+    <string name="digite_cep">Digite Seu CEP</string>
+    <string name="botao_buscar">B</string>
+    <string name="campo_cidade">Cidade</string>
+    <string name="campo_estado">Estado</string>
+    <string name="botap_salvar">Salvar</string>
+    <string name="meuApp">Aplicativos</string>
+    <string name="recuperacao">Recuperação, Todos os direitos reservados.</string>
+    <string name="botao_appEndereco">Meus Endereços</string>
+    <string name="botao_appCotacoes">Minhas Cotações</string>
+    <string name="botao_fechar">Sair</string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="text_cotacao">Minhas Cotações</string>
+    <string name="botao_cotacao">Atualizar Cotações</string>
+    <string name="text_cotacaoAtual">Cotacão Atual </string>
+    <string name="text_dolar">Dolar :</string>
+    <string name="text_euro">Euro :</string>
+    <string name="text_bitcoin">Bitcoin </string>
+    <string name="text_historico">Historico </string>
+
+</resources>
